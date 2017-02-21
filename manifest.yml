@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: cf-jf-feb21-2017
+  host: cf-jf-feb21-2017
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-41
+  - Availability Monitoring-dl
